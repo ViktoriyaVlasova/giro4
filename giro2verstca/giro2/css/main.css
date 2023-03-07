@@ -1,0 +1,177 @@
+@font-face {
+    font-family: GardenC;
+    src: url(fonts/GardensC.otf);
+}
+* {
+    font-family: GardenC;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.call {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.call button {
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-list a {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    color: white;
+    background-image: url(Images/scooter-3620869_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about p {
+    text-align: center;
+}
+.about .giro {
+    font-size: 2rem;
+    text-align: center;
+}
+.about button {
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+}
+.adv .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.about-us {
+    margin: 60px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.rass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    background-color: orange;
+}
+.rass h2 {
+    color: white;
+}
+.rass input {
+    background-color: orange;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rass button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+.rass input::placeholder {
+    color: white;
+}
+.rass .form {
+    display: flex;
+    flex-direction: row;
+}
+.giros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.osb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.plus {
+    list-style-type: none;
+}
+.plus li:before {
+    content: "+ ";
+}
+.minus {
+    list-style-type: none;
+}
+.minus li:before {
+    content: "- ";
+}
+.filter {
+    display: flex;
+    flex-direction: row;
+}
+.click {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.l {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.orange {
+    background-color: orange;
+    padding: 8px;
+    border-radius: 10px;
+}
+.card {
+    width: 25%;
+    height: 200px;
+    margin: 20px;
+}
+.card img {
+    width: 100%;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
